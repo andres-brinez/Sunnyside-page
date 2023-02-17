@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+/* Header */
+
 header{
     background-color: #3EBFFF;
     display: flex;
@@ -53,3 +55,31 @@ li:hover{
     transition: padding 1s,  background-color 2s;
 }
 
+
+/* Banner */
+
+.banner{
+    position: relative;
+    background-image: url("./images/desktop/image-header.jpg");
+    height:120vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  
+}
+
+.banner h2{
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    padding-top: 55px;
+    font-size: 55px;
+    letter-spacing: 10px;
+    text-align: center;
+
+}
+
+.banner .flecha{
+    position: absolute;
+    top: 43%;
+    left: 49%;
+}
