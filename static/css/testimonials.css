@@ -1,0 +1,57 @@
+.testimonials h2{
+    text-align: center;
+    margin: 80px 0 0 ;
+    color: #ABABAB;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-weight: 600;
+
+}
+
+.testimonialsContainer{
+    display: flex;
+    background-color: #FFFBF8;
+    
+}
+
+.testimonialsContainer article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 26%;
+    margin: 20px auto;
+}
+
+.testimonialsContainer article img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin:  80px 0 40px 0    ;
+}
+
+.testimonialsContainer article p {
+    text-align: center;
+    color: hsl(213, 9%, 39%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.testimonialsContainer article div {
+    margin-top: 50px;
+}
+
+
+.testimonialsContainer article p.name { 
+    color: hsl(212, 27%, 19%) ;
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    font-weight:900;
+}
+
+.testimonialsContainer article p.occupation{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(210, 4%, 67%);
+
+}
+
