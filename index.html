@@ -21,22 +21,32 @@
       sunnyside
     </h1>
 
-    <ul class="menu">
-      <li>About</li>
-      <li>Services</li>
-      <li>Projects</li>
-      <li>Contact</li>
-    </ul>
+
+    <div class="nav_items menu" id="_items">
+        <a href="">About</a >
+        <a href="">Services</a>
+        <a href="">Projects</a>
+        <a href="">Contact</a>
+    </div>
+
+    <div class="nav_toggle" id="_toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 
     
   </header>
 
-  <section class="banner">
+ <section class="banner">
     <h2>WE ARE CREATIVES</h2>
     <div class="flecha">
       <img src="./images/icon-arrow-down.svg" alt="flecha" >
     </div>
-  </section>
+  </section> 
+
+  
+<!--
 
   <section class="cards">
     <article class="card card-text">
@@ -89,8 +99,8 @@
           Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
         </p>
     </article>
-  </section>
-
+  </section> -->
+<!-- 
   <section class="testimonials">
 
     <h2> CLIENT TESTIMONIALS </h2>
@@ -130,16 +140,16 @@
     </div>
 
     
-  </section>
+  </section> -->
 
-  <section class="images">
+  <!-- <section class="images">
     <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="botellas de leche" class="imagen">
     <img src="./images/desktop/image-gallery-orange.jpg" alt=" naranjas" class="imagen">
     <img src="./images/desktop/image-gallery-cone.jpg" alt="cono de elado" class="imagen">
     <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="cubos de azucar" class="imagen">
-  </section>
+  </section> -->
 
-  <footer>
+  <!-- <footer>
     <h3>sunnyside</h3>
     <div class="nav">
       <p>About</p>
@@ -159,9 +169,40 @@
     </div>
 
 
-  </footer>
+  </footer> -->
 
   
   <!--  -->
 </body>
+
+<script>
+
+  const containerIcon= document.getElementById("_toggle")
+  const containerItemsNav=document.getElementById("_items")
+  const nav_items = document.querySelector(".nav_items ")
+
+  nav_items.style.left='0' // poner este estilos  para que el contenedor se vaya a la izquierda y no se vea el contenido 
+
+
+  containerIcon.onclick = () =>{
+    containerItemsNav.classList.toggle("open")
+    containerIcon.classList.toggle("close")
+
+    if(containerIcon.classList.length==2){
+      containerIcon.childNodes[1].src='https://cdn-icons-png.flaticon.com/512/1828/1828778.png'
+      
+      nav_items.removeAttribute('style') // cuando se quiere ver el contenido (centrado) se quita el estilo para poder hacerlo
+
+
+    }
+    else{
+      containerIcon.childNodes[1].src='./images/icon-hamburger.svg'
+      nav_items.style.left='0' // poner este estilos  para que el contenedor se vaya a la izquierda y no se vea el contenido 
+
+
+    }
+  }
+  
+
+</script>
 </html>
