@@ -12,6 +12,7 @@ header{
     justify-content: space-between;
     padding: 20px 30px;
     min-height: 45px;
+    align-items: center;
 }
 
 h1{
