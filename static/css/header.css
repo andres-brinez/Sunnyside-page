@@ -104,6 +104,7 @@ h1{
         display: flex !important;
         flex-direction: column;                
         margin: 15px;
+        cursor: pointer;
     }
     .nav_toggle span{
         width: 30px;
