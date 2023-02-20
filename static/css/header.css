@@ -72,7 +72,8 @@ h1{
         padding: 5px 30px;
     }
     .nav_items{
-        margin-top: 10px;
+        margin-top: 30px;
+        padding-top: 50px;
         position: absolute;
         top: 58px;
         background-color: #fff;
@@ -87,7 +88,7 @@ h1{
     }
     .nav_items a{ 
         text-align: center;
-        margin: 20px 0;
+        margin-bottom: 25px;
         font-weight: bold;
     }
 
