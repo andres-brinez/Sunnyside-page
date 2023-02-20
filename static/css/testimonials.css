@@ -56,3 +56,18 @@
 
 }
 
+@media (max-width: 1000px) {
+    
+    
+    .testimonialsContainer{
+       flex-direction: column;
+        
+    }
+    
+    .testimonialsContainer article{
+        
+        width: 80%;
+    }
+    
+   
+}
