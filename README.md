@@ -1,6 +1,7 @@
 # Frontend Mentor - Sunnyside agency landing page
 
-![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
+![sparkling-smakager-b8b43f netlify app_(Nest Hub Max)](https://user-images.githubusercontent.com/94869227/220176232-6df74c4c-9c99-45f0-ae4a-86c18751fbaa.png)
+
 
 ## Welcome! 👋
 
