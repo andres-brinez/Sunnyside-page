@@ -27,3 +27,25 @@
     left: 49%;
     
 }
+
+
+@media (max-width: 768px) {
+    .banner{
+        background-image: url("../../images/mobile/image-header.jpg");
+        height: 70vh;
+      
+    }
+
+    .banner h2{
+        padding-top: 50px;
+        font-size: 45px;
+        
+    
+    }
+    
+
+    .banner .flecha{
+        top: 55%;
+        
+    }
+}
