@@ -86,10 +86,19 @@ h1{
         border-radius: 10px;
     }
     .nav_items a{ 
-        color: #84828C !important;
+        text-align: center;
         margin: 20px 0;
         font-weight: bold;
     }
+
+   
+    #_items a {
+    
+        margin-left: 0;
+        color: #84828C;
+    
+    }
+    
 
     .nav_items a:nth-last-child(1){ 
         background-color: #FBD601 !important;
